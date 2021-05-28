@@ -1,0 +1,9 @@
+postgres:
+  host: "127.0.0.1"
+  user: "postgres"
+  password: "3298"
+  dbname: "crud"
+  port: 5432
+
+http:
+  port: ":5555"
