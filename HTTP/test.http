@@ -1,0 +1,24 @@
+POST http://localhost:8000/mart
+Content-Type: application/json
+
+{
+    "name":"jacky",
+    "address":"hongkong"
+}
+
+###
+GET http://localhost:8000/mart/1
+
+###
+GET http://localhost:8000/mart
+
+###
+PUT http://localhost:8000/mart/2
+Content-Type: application/json
+
+{
+    "name": "BigPom"
+}
+
+###
+DELETE http://localhost:8000/mart/3

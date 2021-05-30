@@ -6,4 +6,4 @@ postgres:
   port: 5432
 
 http:
-  port: ":5555"
+  port: ":8000"
